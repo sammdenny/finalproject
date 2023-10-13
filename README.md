@@ -8,37 +8,24 @@ Access to, and engagement with, high quality education is a significant predicto
 
 School disengagment can refer to a range of different things, including school refusal, poor attendance, school exclusion or becoming NEET (Not in Education, Employment or Training) at 16. I have chosen to look at absence rates for pupils as a measure of school engagement, as poor attendance can be an 'early warning signal' of more serious disengagement and wider negative reprocussions (Kearney et al., 2023) <a href="#ref3">[3]</a>. 
 
-Socioeconomic status has been shown to impact educational outcomes. As part of the Longitudinal Study of Young People in England (LSYPE) the progress of over 15,000 individuals was measured from birth through to their early 20s. This research showed that an attainment gap between children from the poorest backgrounds and their better off peers was already evident at the age of 5, and widened substantially by the time they were in secondary school (Goodman et al., 2010) <a href="#ref2">[2]</a>. Seventy-five percent of young people in the least deprived quintile gained 5 good GCSEs, compared to only 21% of the poorest quintile. I will compare school absences for pupils who are eligible for free school meals (FSM) with pupils who are not eligible. In England, children are eligible for FSM if their parent or carer is receiving benefits <a href="#ref4">[4]</a>. FSM eligibility is frequently used as an indicator of socioeconomic disadvantage for children (for example, Allen and Vignoles, 2007) <a href="#ref5">[6]</a>. 
+Socioeconomic status has been shown to impact educational outcomes. As part of the Longitudinal Study of Young People in England (LSYPE) the progress of over 15,000 individuals was measured from birth through to their early 20s. This research showed that an attainment gap between children from the poorest backgrounds and their better off peers was already evident at the age of 5, and widened substantially by the time they were in secondary school (Goodman et al., 2010) <a href="#ref2">[2]</a>. Seventy-five percent of young people in the least deprived quintile gained 5 good GCSEs, compared to only 21% of the poorest quintile. 
 
-I have chosen to look at Bradford as it has been identified by the press as an area with increasing challenges around school attendance. In the 2021/22 academic year 28.6% of Bradford students were persistently absent (missing 10 sessions or more), compared to 22.5% Nationally. Further to this, Bradford's absence rate has more than doubled since 2018/19 (14.1%; Newman, 2023) <a href="#ref4">[5]</a>. 
+I will compare school absences for pupils who are eligible for free school meals (FSM) with pupils who are not eligible. In England, children are eligible for FSM if their parent or carer is receiving social benefits <a href="#ref4">[4]</a>. FSM eligibility is frequently used as an indicator of socioeconomic disadvantage for children (for example, Allen and Vignoles, 2007) <a href="#ref5">[6]</a>. 
 
-### Hypothesis 1: 
-Bradford students who are eligible for FSM will have higher rates of 'overall absence', 'unauthorised absence', 'persistent absence' (10 sessions or more) and 'severe absence' (50 sessions or more) during the 2021/22 academic year, than students who are not eligible for FSM. 
+I have chosen to look at Bradford as it is an area with increasing challenges around school attendance. In the 2021/22 academic year 28.6% of Bradford students were persistently absent (missing 10 sessions or more), compared to 22.5% Nationally. Further to this, Bradford's absence rate has more than doubled since 2018/19 (14.1%; Newman, 2023) <a href="#ref4">[5]</a>. 
 
-I will also consider absence rates at the school level as one aspect of their performance, and see how these relate to overall school performance. I will use Ofsted rating as a measure of overall school performance. The Office for Standards in Education, Children's Services and Skills (Ofsted) is primarily responsible for assessing the quality of education and care provided by schools across the UK. There is a 4-point scale for Ofsted ratings - grade 1: outstanding, grade 2: good, grade 3: requires improvement and grade 4: inadequate. The rating that a school recieves from Ofsted can have a big impact on whether parents choose to enroll their children, on staff morale, and even on the funding that the school receives. 
+### Hypothesis 1: Bradford students who are eligible for FSM will have higher rates of 'overall absence', 'unauthorised absence', 'persistent absence' (10 sessions or more) and 'severe absence' (50 sessions or more) during the 2021/22 academic year, than students who are not eligible for FSM. 
 
-Finally I will use a spatial visualisation to explore the relationship between school performance and the level of deprivation in the local area. For this I will use the Index of Multiple Deprivation (IMD), which  
+I will also consider absence rates at the school level as one aspect of performance, and see how these relate to overall school performance. I will use Ofsted rating as a measure of overall school performance. The Office for Standards in Education, Children's Services and Skills (Ofsted) is primarily responsible for assessing the quality of education and care provided by schools across the UK. There is a 4-point scale for Ofsted ratings - grade 1: outstanding, grade 2: good, grade 3: requires improvement and grade 4: inadequate. The rating that a school recieves from Ofsted can have a big impact on whether parents choose to enroll their children, on staff morale, and even on the funding that the school receives. 
 
-
-### Hypothesis 2: 
-Bradford schools with higher absence rates, and lower Ofsted ratings will be located in and around (lower super output) areas of Bradford City in the most deprived deciles of Index of Multiple Deprivation (IMD). 
-
-##### Index of Multiple Deprivation
+Finally I will use a spatial visualisation to explore the relationship between school performance and the level of deprivation in the local area. For this I will use the Index of Multiple Deprivation (IMD), which XXXXXXXXXX
 
 
-##### Bradford
+### Hypothesis 2: Bradford schools with higher absence rates, and lower Ofsted ratings will be located in and around (lower super output) areas of Bradford City in the most deprived IMD deciles. 
 
 
 
-## Social Impact
-School attendance is often seen and used as a performance metric, both for children and for schools. Frequent school absenses may be treated as a behaviour issue for the student, and overall attendance rates form part of the statutory returns submitted by schools to the Department for Education. 
-
-
-
-
-
-
-### Open Data Sources
+## Open Data Sources
 Absence data by pupil characteristic and Bradford schools data, including Ofsted ratings and postcode, have been retrieved from the Northern Data Hub <a href="#ref6">[7]</a>. 
 
 Absence data by school have been retrieved from the UK Government's 'Explore Education Statistics' website <a href="#ref7">[8]</a>.
