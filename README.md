@@ -1,7 +1,7 @@
-# What is the impact of socioeconomic deprivation on education in the City of Bradford
+# What is the impact of poverty on education in the City of Bradford
 
 ## Research question
-What is the impact of socioeconomic deprivation on education in the City of Bradford, specifically, how does affect school engagement, and school performance in Bradford. 
+What is the impact of poverty on education in the City of Bradford, specifically, how does socioeconomic deprivation affect school engagement, and school performance in Bradford. 
 
 ## Background
 Access to, and engagement with, high quality education is a significant predictor of long-term life outcomes. Young people who disengage from education have an increased risk of future criminal activity, unemployment, substance misuse and poor health (Klasson, Stewart & Lapshina, 2021 <a href="#ref1">[1]</a>. 
@@ -10,7 +10,7 @@ School disengagment can refer to a range of different things, including school r
 
 Socioeconomic status has been shown to impact educational outcomes. As part of the Longitudinal Study of Young People in England (LSYPE) the progress of over 15,000 individuals was measured from birth through to their early 20s. This research showed that an attainment gap between children from the poorest backgrounds and their better off peers was already evident at the age of 5, and widened substantially by the time they were in secondary school (Goodman et al., 2010) <a href="#ref2">[2]</a>. Seventy-five percent of young people in the least deprived quintile gained 5 good GCSEs, compared to only 21% of the poorest quintile. 
 
-I will compare school absences for pupils who are eligible for free school meals (FSM) with pupils who are not eligible. In England, children are eligible for FSM if their parent or carer is receiving social benefits <a href="#ref4">[4]</a>. FSM eligibility is frequently used as an indicator of socioeconomic disadvantage for children (for example, Allen and Vignoles, 2007) <a href="#ref5">[6]</a>. 
+For this assignment, I will compare school absences for pupils who are eligible for free school meals (FSM) with pupils who are not eligible. In England, children are eligible for FSM if their parent or carer is receiving social benefits <a href="#ref4">[4]</a>. FSM eligibility is frequently used as an indicator of socioeconomic disadvantage for children (for example, Allen and Vignoles, 2007) <a href="#ref5">[6]</a>. 
 
 I have chosen to look at Bradford as it is an area with increasing challenges around school attendance. In the 2021/22 academic year 28.6% of Bradford students were persistently absent (missing 10 sessions or more), compared to 22.5% Nationally. Further to this, Bradford's absence rate has more than doubled since 2018/19 (14.1%; Newman, 2023) <a href="#ref4">[5]</a>. 
 
