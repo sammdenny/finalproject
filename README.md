@@ -20,7 +20,7 @@ I will also consider absence rates at the school level as one aspect of school p
 
 Finally I will explore the relationship between school performance and the level of deprivation in the local area. For this I will use Indices of Multiple Deprivation (IMD), which give an indication of the level of deprivation in small areas relative to the rest of the UK. I will then use a spatial visualisation to show this relationship. 
 
-### Hypothesis 2: Bradford schools with higher absence rates, and lower Ofsted ratings will be located in and around (lower super output) areas of Bradford City in the most deprived IMD deciles. 
+### Hypothesis 2: Bradford schools with higher absence rates, and lower Ofsted ratings will be located in and around the most deprived (lower super output) areas of Bradford City. 
 
 
 ## Open Data Sources
