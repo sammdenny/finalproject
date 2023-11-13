@@ -26,10 +26,9 @@ Finally I will explore the relationship between school performance and the level
 ## Open Data Sources
 Absence data by pupil characteristic and Bradford schools data, including Ofsted ratings and postcode, have been retrieved from the Northern Data Hub <a href="#ref6">[7]</a>. 
 
-Absence data by school have been retrieved from the UK Government's 'Explore Education Statistics' website <a href="#ref7">[7]</a>. This data file contained 169,736 records, which meant it was too large to upload to GitHub. So that the file could be uploaded, I removed all schools outside of Bradford from the csv file. This didn’t require any changes to the code written in my Jupyter file – the same code works whether using the complete file downloaded straight from the 'Explore Education Statistics' website or using the smaller file uploaded to Github. 
+Absence data by school have been retrieved from the UK Government's 'Explore Education Statistics' website <a href="#ref7">[7]</a>. This data file contained 169,736 records, which meant it was too large to upload to GitHub. In order for the file to be uploaded, I removed all schools outside of Bradford from the csv file. Using the amended file didn’t require any changes to the code written in my Jupyter file – the same code works whether using the complete file downloaded straight from the 'Explore Education Statistics' website or using the smaller file uploaded to Github. 
 
-
-Spatial data for the Bradford Lower Super Output Areas (LSOAs), and for the Bradford school postcodes have been retrieved from the Office for National Statistics (ONS) Open Geography Portal <a href="#ref7">[8]</a>. 
+Spatial data for the Bradford Lower Super Output Areas (LSOAs), and for the Bradford school postcodes have been retrieved from the Office for National Statistics (ONS) Open Geography Portal <a href="#ref7">[8]</a>.  
 
 #### Notes on retrieving spatial data
 I initially downloaded the Bradford LSOA spatial data based on filtering by the Bradford OSLAUA (E08000032) however, when I merged it with the Bradford schools data there were 30 school postcodes missing from the ONS dataset. Instead, the shape file for the Bradford LSOAs that I have used was obtained using the map zoom function on the ONS website to retrieve a larger dataset. When merging this new file with the Bradford schools data there was a match for 100% of school postcodes. 
