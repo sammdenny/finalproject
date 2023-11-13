@@ -23,14 +23,15 @@ Finally I will explore the relationship between school performance and the level
 ### Hypothesis 2: Bradford schools with higher absence rates, and lower Ofsted ratings will be located in and around the most deprived (lower super output) areas of Bradford City. 
 
 
-## Open Data Sources
-Absence data by pupil characteristic and Bradford schools data, including Ofsted ratings and postcode, have been retrieved from the Northern Data Hub <a href="#ref6">[7]</a>. 
+## Open data sources and notes on retrieving data
+Absence data by pupil characteristic<a href="#ref6">[6]</a> and Bradford schools data including Ofsted ratings and postcode<a href="#ref7">[7]</a>, have been retrieved from the Northern Data Hub. 
 
-Absence data by school have been retrieved from the UK Government's 'Explore Education Statistics' website <a href="#ref7">[7]</a>. This data file contained 169,736 records, which meant it was too large to upload to GitHub. In order for the file to be uploaded, I removed all schools outside of Bradford from the csv file. Using the amended file didn’t require any changes to the code written in my Jupyter file – the same code works whether using the complete file downloaded straight from the 'Explore Education Statistics' website or using the smaller file uploaded to Github. 
+Absence data by school have been retrieved from the UK Government's 'Explore Education Statistics' website <a href="#ref8">[8]</a>. This data file contained 169,736 records, which meant it was too large to upload to GitHub. In order for the file to be uploaded, I removed all schools outside of Bradford from the csv file. Using the amended file didn’t require any changes to the code written in my Jupyter file – the same code works whether using the complete file downloaded straight from the 'Explore Education Statistics' website or using the smaller file uploaded to Github. 
 
-Spatial data for the Bradford Lower Super Output Areas (LSOAs), and for the Bradford school postcodes have been retrieved from the Office for National Statistics (ONS) Open Geography Portal <a href="#ref7">[8]</a>.  
+Spatial data for the Bradford Lower Super Output Areas (LSOAs)<a href="#ref9">[9]</a>, and for the Bradford school postcodes<a href="#ref10">[10]</a> have been retrieved from the Office for National Statistics (ONS) Open Geography Portal. 
 
-#### Notes on retrieving spatial data
+The original shape file for Bradford postcodes was 37.6MB, which was too big to upload to GitHub. As a way around this I filtered the list of schools in Bradford to those with the highest absence rates, and then looked up the geometry data for those postcodes individually. This produced a much smaller shape file that could be uploaded to GitHub. 
+
 I initially downloaded the Bradford LSOA spatial data based on filtering by the Bradford OSLAUA (E08000032) however, when I merged it with the Bradford schools data there were 30 school postcodes missing from the ONS dataset. Instead, the shape file for the Bradford LSOAs that I have used was obtained using the map zoom function on the ONS website to retrieve a larger dataset. When merging this new file with the Bradford schools data there was a match for 100% of school postcodes. 
 
 
@@ -48,8 +49,12 @@ I initially downloaded the Bradford LSOA spatial data based on filtering by the 
 
 <p><a href="https://www.tandfonline.com/doi/full/10.1080/03054980701366306?casa_token=6SEt_25VLtoAAAAA%3AjaCLjzy7UOchJYXlhUjfp42k6jGEehIczK9S5WqHSggLZwua1yxenu6pwSVM69D9Oua0R7W6NUku">[5]</a> Allen, R. and Vignoles, A. 2007. What should an index of school segregation measure?. <i>Oxford Review of Education</i>. 33(5), pp.643-668</p>
 
-<p><a href="https://datahub.bradford.gov.uk/ebase/datahubext.eb?search=Bradford+Council+census+results+2021&ebd=0&ebp=10&ebz=2_1697028992340">[6]</a> Northern Data Hub</p>
+<p><a href="https://datahub.bradford.gov.uk/ebase/datahubext.eb?search=Bradford+Schools+-+Attendance+(Absence)">[6]</a> Northern Data Hub. 2022. Bradford Schools - Attendance (Absence). [Online]. [Accessed 13 November 2023]. Available from https://datahub.bradford.gov.uk/ebase/datahubext.eb?search=Bradford+Schools+-+Attendance+(Absence) </p>
 
-<p><a href="https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england/2021-22">[7]</a> UK Government. 2023. Pupil absence in schools in England: Academic year 2021/22. [Online]. [Accessed 13 October 2023]. Available from: https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england/2021-22 </p>
+<p><a href="https://datahub.bradford.gov.uk/ebase/datahubext.eb?search=Bradford+schools">[7]</a> Northern Data Hub. 2022. Bradford schools. [Online]. [Accessed 13 November 2023]. Available from https://datahub.bradford.gov.uk/ebase/datahubext.eb?search=Bradford+schools </p>
 
-<p><a href="https://geoportal.statistics.gov.uk">[8]</a> Office for National Statistics (ONS) Open Geography Portal</p>
+<p><a href="https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england/2021-22">[8]</a> UK Government. 2023. Pupil absence in schools in England: Academic year 2021/22. [Online]. [Accessed 13 October 2023]. Available from: https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england/2021-22 </p>
+
+<p><a href="https://geoportal.statistics.gov.uk](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(BDY_LSOA%2CDEC_2021))">[9]</a> Office for National Statistics (ONS) Open Geography Portal. 2021. Lower Layer Super Output Areas (2021) Boundaries EW BFC. [Online]. [Accessed 13 November 2023]. Available from https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(BDY_LSOA%2CDEC_2021) </p>
+
+<p><a href="https://geoportal.statistics.gov.uk](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(CTD_ONSPD))https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(CTD_ONSPD)">[10]</a> Office for National Statistics (ONS) Open Geography Portal. 2023. ONSPD Online Latest Centroids. [Online]. [Accessed 13 November 2023]. Available from https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all(CTD_ONSPD) </p>
