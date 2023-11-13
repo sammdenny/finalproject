@@ -33,6 +33,7 @@ Spatial data for the Bradford Lower Super Output Areas (LSOAs), and for the Brad
 ##### Notes on retrieving spatial data
 I initially downloaded the Bradford LSOA spatial data based on filtering by the Bradford OSLAUA (E08000032) however, when I merged it with the Bradford schools data there were 30 school postcodes missing from the ONS dataset. Instead, the shape file for the Bradford LSOAs that I have used was obtained using the map zoom function on the ONS website to retrieve a larger dataset. When merging this new file with the Bradford schools data there was a match for 100% of school postcodes. 
 
+Word Count: 778
 
 ## References
 
